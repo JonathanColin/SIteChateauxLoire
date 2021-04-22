@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="feuillestyle2.css" />
+	</head>
+	<body>
+		<div id="global">
+		
+		
+			<div id="entete">
+				<h1>Merci de nous donner votre avis sur le site</h1>
+				<img src="images/Chambord2.jpg" alt="Château de Chambord" class="photoentete"/>
+			</div><!-- #entete -->
+			
+			<div id="contenu">
+				<form method="post" action="traitement.php">
+					<fieldset id="section-1">
+					
+						<section class="group1">
+							<label for="pseudo" class="inline">Nom ou pseudo</label>
+							<input type="text" name="pseudo" id="pseudo" autocomplete="on" autofocus><br><br>
+							<label for="pswd">Mot de passe</label>
+							<input type="password" name="pswd" id="pswd">
+						</section>
+						
+						<section class="group2">
+							<label for="sexe">Vous êtes</label>
+							<select name="sexe">
+								<optgroup label="Adulte">
+									<option value="femme">Femme</option>
+									<option value="homme">Homme</option>
+								<optgroup label="Jeune">
+									<option value="fille">Fille</option>
+									<option value="garcon">Garçon</option>
+							</select><br><br>
+						</section>
+						
+					</fieldset><br><br>
+					
+					<fieldset id="section-2">
+						<label for="message">Votre message</label><br>
+						<textarea name="message" id="message"></textarea><br><br>
+						
+						<label for="navigation">Navigation</label>
+						<input type="radio" name="navigation" value="tressimple" id="tressimple">
+						<label for="tressimple">Très simple</label>
+						<input type="radio" name="navigation" value="correcte" id="correcte">
+						<label for="correcte">Correcte</label>
+						<input type="radio" name="navigation" value="compliquee" id="compliquee">
+						<label for="compliquee">Compliquée</label><br><br>
+						
+						<label for="qualitedusite">Qualité du site</label>
+						<input type="checkbox" name="qualitedusite" value="instructif" id="instructif">
+						<label for="instructif">Instructif</label>
+						<input type="checkbox" name="qualitedusite" value="esthetique" id="esthetique">
+						<label for="esthetique">Esthétique</label>
+						<input type="checkbox" name="qualitedusite" value="clair" id="clair">
+						<label for="clair">Clair</label>
+						<input type="checkbox" name="qualitedusite" value="pratique" id="pratique">
+						<label for="pratique">Pratique</label><br><br>
+						
+						<label for="avisdusite">Comment avez-vous connu ce site ?
+						<select name="avisdusite">
+							<option value="presse">Presse</option>
+							<option value="internet">Internet</option>
+							<option value="amisouautres">Amis ou autres</option>
+						</select>
+					</fieldset>
+					<input type="reset" value="Effacer">
+					<input type="submit" value="Envoyer">
+			</div><!-- #contenu -->
+			
+			<div id="pied">
+				
+			</div><!-- #pied -->
+			
+		</div><!-- #global -->
+	</body>
+</html>

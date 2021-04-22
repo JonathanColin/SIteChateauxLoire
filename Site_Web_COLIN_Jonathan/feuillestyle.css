@@ -1,0 +1,255 @@
+html {
+		height: 100%;
+}
+
+body{
+		min-height: 100%;
+		padding: 0;
+		background: #2C2F22;
+}
+#global {
+		min-height: 100%;
+		width: 1505px;
+		margin-left: auto;
+		margin-right: auto;
+		border:4px solid red;
+}
+#entete {
+
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px 20px 10px 20px;
+		background: #708090
+		
+}
+#navigation {
+		margin-left: auto;
+		margin-right: auto;
+		background: #708090;
+		
+}
+#contenu {
+		min-height: 100%;
+		width: 750px;
+		overflow:auto;
+		margin-top:50px;
+		margin-left:auto;
+		margin-right:auto;
+		color:#363B29;
+		background:#FDF5E6;
+}
+.group1, .group2, .group3
+{
+	float:left;
+	width:200px;
+	position: relative;
+	padding:15px;
+	margin:auto;
+	text-align:justify;
+}
+
+#contenu p, #contenu li{
+	line-height: 1.5; /* hauteur des lignes pour p et li*/
+}
+
+#contenu h3 {
+	font-size: 1.2em;/*taille de la police pour les titres h3*/
+}
+
+#contenu a {
+	color: #332510; /* couleur des liens*/
+	text-decoration: none;/* decoration des liens*/
+}
+
+#contenu a:hover {
+	color: #5F9EA0; /* couleur au survol de la souris sur le lien*/
+}
+
+.group4
+{
+	float:left;
+	width: 700px;
+	position: relative;
+	padding: 15px;
+	background: transparent;
+	background-image:url(images/top.png);/* attribue une image au groupe 4*/
+	background-position: left top;/*positionne l'image de fond à partir du haut et à gauche*/
+	background-repeat: no-repeat;/*l'image ne se repete pas*/
+	margin: auto;
+	text-align: justify;
+}
+
+.group4 h4
+{
+	float: left;/*le titre du groupe 4 est positionné à gauche*/
+	margin: 0px 10px 5px 5px;
+	font-size: 1em;
+	font-family: Verdana, sans-serif;
+	color: slategray; /*couleur de la police*/
+}
+.group2 audio
+{
+	position:relative;
+	float:left;
+	width: 200px;
+	height: 20px;
+}
+
+.group3 ul
+{
+	float:left;
+	width: 200px;
+	position: relative;
+	padding-left: 10px;
+	margin: auto;
+}
+
+.group4 ul
+{
+	float: left;
+	width: 450px;
+	padding-left:10px;
+	margin: auto;
+}
+
+
+.photo
+{
+		float:left;
+		margin:0 20px 20px 1px;
+		-webkit-box-shadow: -7px 6px 15px #333;
+		-moz-box-shadow: -7px 6px 15px #333;
+}
+
+.photo:hover, .photoentete:hover
+{
+	background-color:white;
+	opacity:0.5;
+}
+.lien
+{
+		color:#000090;
+		text-decoration: underline;
+		font-weight: bold;
+}
+
+.lien:hover
+{
+		color:#778899;
+}
+#pied {
+		min-height: 100%;
+		width: 750px;
+		overflow: auto;
+		margin-top: 10px;
+		margin-left:auto;
+		margin-right:auto;
+		background:#708090;
+}
+
+#pied .group1, #pied .group2, #pied .group3, #pied .group5 {
+	text-align:left;
+	width: 150 px;
+	padding-right:0px;
+
+}
+#pied .group5{
+	padding-top:15px;
+}
+
+#pied h3 {
+	font-size: 1em;
+	color: #FFFAF0;
+}
+
+#pied a {
+	color: #F5F5F5;
+	font-size: 0.85em;
+	text-decoration: none;
+}
+
+#pied a:hover {
+	color: #4B0082;
+}
+
+#entete img {
+		max-width:100%;
+}
+
+.photoentete
+{
+		float:left;
+		margin:0 20px 20px 1px;
+}
+.photoentete:hover
+{
+		background:white;
+		opacity:0.5;
+}
+
+
+#entete h1 {
+	margin: 0;
+	font-size: 1.7em;
+	font-family: Verdana, sans-serif;
+	color:#F5F5F5;	
+}
+
+#entete h2 {
+	margin: 10px 1px;
+	font-size: 1.4em;
+	font-family: Verdana, sans-serif;
+	color:#F5F5F5;	
+}
+
+#navigation ul {
+	margin: 0;
+	padding:0;
+	list-style: none;
+	text-align: center;
+}
+
+#navigation li {
+	float:left;
+	margin:auto;
+	padding:0;
+	background-color:#708090;
+}
+
+#navigation li a {
+	display:block;
+	width:100px;
+	color:#F5F5F5;
+	text-decoration:none;
+	padding:10px 25px;
+}
+
+#navigation ul li ul {
+	display:none;
+}
+
+#navigation ul li:hover ul {
+	display: block;
+}
+
+#navigation li:hover ul li {
+	float:none;
+}
+
+#navigation li ul {
+	position:absolute;
+	z-index:1;
+}
+
+#navigation a {
+	padding: 6px;
+	line-height: 1.5;
+	font-size: 0.85em;
+	font-family: Verdana, sans-serif;
+	text-decoration: none;
+}
+
+#navigation li a:hover, #navigation ul li ul li a:hover {
+	color:#ffd700;
+	background:#132959;
+}
